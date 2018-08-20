@@ -19,14 +19,14 @@
 
 ### npm:
 ``` bash
-$ npm install --save-dev toolsbox
+$ npm install --save-dev common-tools-box
 ```
 
 webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const toolsbox = require('toolsbox')
+const toolsbox = require('common-tools-box')
 const OS = toolsbox.getOS()
 ```
 
@@ -34,8 +34,8 @@ const OS = toolsbox.getOS()
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
 ``` javascript
-// 只引入部分方法('toolsbox/<方法名>')
-const getOS = require('toolsbox/getOS')
+// 只引入部分方法('common-tools-box/<方法名>')
+const getOS = require('common-tools-box/getOS')
 const OS = getOS()
 ```
 ## API文档
