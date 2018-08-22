@@ -1,5 +1,6 @@
 {
   "name": "common-tools-box",
+  "nickname": "toolsbox",
   "version": "1.0.2",
   "description": "前端业务代码工具库",
   "main": "min/toolsbox.min.js",
