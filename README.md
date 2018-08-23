@@ -47,6 +47,14 @@ const OS = getOS()
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
 #### &emsp;&emsp;[hasClass][hasClass]&emsp;&emsp;判断元素是否有某个class  
 #### &emsp;&emsp;[removeClass][removeClass]&emsp;&emsp;为元素移除class  
+#### &emsp;&emsp;[getByClass][getByClass]&emsp;&emsp;找到父元素下所有含有对应class的项并以数组形式返回
+
+### Css
+#### &emsp;&emsp;[css][css]&emsp;&emsp;获取或设置行间样式  
+#### &emsp;&emsp;[getStyle][getStyle]&emsp;&emsp;获取非行间样式  
+
+### Event
+#### &emsp;&emsp;[addEvent][addEvent]&emsp;&emsp;封装事件绑定，实现一种事件绑定多个事件处理函数 
 
 ### Cookie 
 #### &emsp;&emsp;[getCookie][getCookie]&emsp;&emsp;根据name读取Cookie  
@@ -108,6 +116,12 @@ const OS = getOS()
 [addClass]:https://github.com/hyy520/toolsbox/blob/master/src/class/addClass.js
 [hasClass]:https://github.com/hyy520/toolsbox/blob/master/src/class/hasClass.js
 [removeClass]:https://github.com/hyy520/toolsbox/blob/master/src/class/removeClass.js
+[getByClass]:https://github.com/hyy520/toolsbox/blob/master/src/class/getByClass.js
+
+[css]:https://github.com/hyy520/toolsbox/blob/master/src/css/css.js
+[getStyle]:https://github.com/hyy520/toolsbox/blob/master/src/css/getStyle.js
+
+[addEvent]:https://github.com/hyy520/toolsbox/blob/master/src/event/addEvent.js
 
 [getCookie]:https://github.com/hyy520/toolsbox/blob/master/src/cookie/getCookie.js
 [removeCookie]:https://github.com/hyy520/toolsbox/blob/master/src/cookie/removeCookie.js
