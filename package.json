@@ -1,0 +1,53 @@
+{
+  "name": "common-tools-box",
+  "nickname": "toolsbox",
+  "version": "1.0.4",
+  "description": "前端业务代码工具库",
+  "main": "min/toolsbox.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node script/build.js",
+    "build-copy": "node script/build-copy.js",
+    "build-pack": "node script/build-pack",
+    "test": "npm run build-pack && karma start script/karma.conf.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.0",
+    "copy": "^0.3.1",
+    "coveralls": "^3.0.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-power-assert": "^1.0.0",
+    "mocha": "^4.0.1",
+    "ora": "^1.3.0",
+    "power-assert": "^1.4.4",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyy520/toolsbox.git"
+  },
+  "keywords": [
+    "common-tools",
+    "tools",
+    "toolsbox"
+  ],
+  "author": "hyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyy520/toolsbox/issues"
+  },
+  "homepage": "https://github.com/hyy520/toolsbox#readme",
+  "_from": "common-tools-box@1.0.4",
+  "_resolved": "http://registry.npm.taobao.org/common-tools-box/download/common-tools-box-1.0.4.tgz"
+}
