@@ -1,14 +1,14 @@
 {
   "name": "common-tools-box",
   "nickname": "toolsbox",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "前端业务代码工具库",
   "main": "min/toolsbox.min.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "build": "node script/build.js",     
+    "build": "node script/build.js",
     "test": "npm run build-pack && karma start script/karma.conf.js"
   },
   "devDependencies": {
