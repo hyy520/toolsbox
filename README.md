@@ -33,15 +33,19 @@ const OS = toolsbox.getOS()
 **推荐使用方法**  
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
-``` javascript
-// 只引入部分方法('common-tools-box/<方法名>')
-const getOS = require('common-tools-box/getOS')
+``` javascript 
+const {getOS} = require('common-tools-box')
 const OS = getOS()
 ```
 ## API文档
 
 ### Array  
 #### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
+#### &emsp;&emsp;[shuffle][shuffle]&emsp;&emsp;洗牌函数（打乱数组）
+
+### Store  
+#### &emsp;&emsp;[saveToLocal][saveToLocal]&emsp;&emsp;本地（localStorage）存储数据 
+#### &emsp;&emsp;[loadFromLocal][loadFromLocal]&emsp;&emsp;读取localStorage数据
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
@@ -112,6 +116,10 @@ const OS = getOS()
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
 [arrayEqual]:https://github.com/hyy520/toolsbox/blob/master/src/array/arrayEqual.js
+[shuffle]:https://github.com/hyy520/toolsbox/blob/master/src/array/shuffle.js
+
+[saveToLocal]:https://github.com/hyy520/toolsbox/blob/master/src/store/saveToLocal.js
+[loadFromLocal]:https://github.com/hyy520/toolsbox/blob/master/src/store/loadFromLocal.js
 
 [addClass]:https://github.com/hyy520/toolsbox/blob/master/src/class/addClass.js
 [hasClass]:https://github.com/hyy520/toolsbox/blob/master/src/class/hasClass.js
