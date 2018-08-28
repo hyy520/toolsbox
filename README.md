@@ -21,7 +21,6 @@
 ``` bash
 $ npm install --save-dev common-tools-box
 ```
-
 webpack、RequireJS、SeaJS等
 
 ``` javascript
@@ -34,9 +33,17 @@ const OS = toolsbox.getOS()
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
 ``` javascript 
-const {getOS} = require('common-tools-box')
+const getOS = require('common-tools-box')
 const OS = getOS()
 ```
+
+当然，你的开发环境有 babel编译 ES6语法的话，也可以这样使用：
+``` javascript 
+import getOS from 'common-tools-box/getOS'
+// 或
+import { getOS } from "common-tools-box";
+```
+
 ## API文档
 
 ### Array  
