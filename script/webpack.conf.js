@@ -18,7 +18,7 @@ const config = {
         }]
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin() //用来压缩代码(内置插件)
     ]
 }
 
