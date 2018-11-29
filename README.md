@@ -106,6 +106,7 @@ import { getOS } from "common-tools-box";
 
 ### Number  
 #### &emsp;&emsp;[digitUppercase][digitUppercase]&emsp;&emsp;现金额转大写
+#### &emsp;&emsp;[numToChinese][numToChinese]&emsp;&emsp;将阿拉伯数字翻译成中文的大写数字
 
 ### String  
 #### &emsp;&emsp;[changeCase][changeCase]&emsp;&emsp;字母大小写转换
@@ -173,6 +174,7 @@ import { getOS } from "common-tools-box";
 [isUrl]:https://github.com/hyy520/toolsbox/blob/master/src/regexp/isUrl.js
 
 [digitUppercase]:https://github.com/hyy520/toolsbox/blob/master/src/number/digitUppercase.js
+[numToChinese]:https://github.com/hyy520/toolsbox/blob/master/src/number/numToChinese.js
 
 [changeCase]:https://github.com/hyy520/toolsbox/blob/master/src/string/changeCase.js
 [checkPwd]:https://github.com/hyy520/toolsbox/blob/master/src/string/checkPwd.js
