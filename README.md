@@ -104,8 +104,13 @@ import { getOS } from "common-tools-box";
 #### &emsp;&emsp;[isPhoneNum][isPhoneNum]&emsp;&emsp;判断是否为手机号  
 #### &emsp;&emsp;[isUrl][isUrl]&emsp;&emsp;判断是否为URL地址
 
-### String  
+### Number  
 #### &emsp;&emsp;[digitUppercase][digitUppercase]&emsp;&emsp;现金额转大写
+
+### String  
+#### &emsp;&emsp;[changeCase][changeCase]&emsp;&emsp;字母大小写转换
+#### &emsp;&emsp;[checkPwd][checkPwd]&emsp;&emsp;检测密码强度
+#### &emsp;&emsp;[trim][trim]&emsp;&emsp;去除空格
 
 ### Support  
 #### &emsp;&emsp;[isSupportWebP][isSupportWebP]&emsp;&emsp;判断浏览器是否支持webP格式图片
@@ -167,7 +172,11 @@ import { getOS } from "common-tools-box";
 [isPhoneNum]:https://github.com/hyy520/toolsbox/blob/master/src/regexp/isPhoneNum.js
 [isUrl]:https://github.com/hyy520/toolsbox/blob/master/src/regexp/isUrl.js
 
-[digitUppercase]:https://github.com/hyy520/toolsbox/blob/master/src/string/digitUppercase.js
+[digitUppercase]:https://github.com/hyy520/toolsbox/blob/master/src/number/digitUppercase.js
+
+[changeCase]:https://github.com/hyy520/toolsbox/blob/master/src/string/changeCase.js
+[checkPwd]:https://github.com/hyy520/toolsbox/blob/master/src/string/checkPwd.js
+[trim]:https://github.com/hyy520/toolsbox/blob/master/src/string/trim.js
 
 [isSupportWebP]:https://github.com/hyy520/toolsbox/blob/master/src/support/isSupportWebP.js
 
