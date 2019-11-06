@@ -2,7 +2,7 @@
   "name": "common-tools-box",
   "nickname": "toolsbox",
   "version": "2.0.0",
-  "description": " 前端业务代码工具库",
+  "description": "前端业务代码工具库",
   "main": "min/toolsbox.min.js",
   "directories": {
     "test": "test"
